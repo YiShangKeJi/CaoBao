@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_guide"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title">
+
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ban_transparent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/text_10"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x100"
+            android:layout_marginTop="@dimen/y100"
+            android:text="草包团"
+            android:textColor="@color/white"
+            android:textSize="@dimen/p50" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/x80"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y100"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="手机号"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="11位手机号"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/gray_font" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/view_line_width"
+                android:background="@color/colorTheme"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y100"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="密    码"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/gray_font" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/view_line_width"
+                android:background="@color/colorTheme"></View>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_login"
+            style="@style/text_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90"
+            android:layout_margin="@dimen/x80"
+            android:text="登    录" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="bottom">
+
+            <TextView
+                android:id="@+id/tv_register"
+                style="@style/text_title"
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/y120"
+                android:text="新用户"
+                android:textColor="@color/colorTheme" />
+
+            <TextView
+                android:id="@+id/tv_forget_pwd"
+                style="@style/text_title"
+                android:layout_width="@dimen/x200"
+                android:layout_height="@dimen/y120"
+                android:layout_alignParentRight="true"
+                android:text="忘记密码"
+                android:textColor="@color/colorTheme" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

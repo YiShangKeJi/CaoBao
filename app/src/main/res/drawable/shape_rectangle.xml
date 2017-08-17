@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 绘制图形 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:visible="true">
+
+    <!-- 设置线 -->
+    <stroke
+        android:width="@dimen/x1"
+        android:color="@color/colorTheme" />
+    <!-- 设置角度 -->
+    <corners android:radius="@dimen/x10" />
+
+
+</shape>

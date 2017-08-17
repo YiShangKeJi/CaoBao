@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y300"
+        android:background="@color/colorTheme"
+        android:paddingLeft="@dimen/x30">
+
+        <ImageView
+            android:layout_width="@dimen/y50"
+            android:layout_height="@dimen/y50"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/x50"
+            android:src="@drawable/home_page_on" />
+
+        <com.ys.caobao.view.CircleImageView
+            android:layout_width="@dimen/y120"
+            android:layout_height="@dimen/y120"
+            android:layout_above="@+id/tv_login"
+            android:layout_marginLeft="@dimen/x50"
+            android:src="@drawable/ic_nav_bg" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            style="@style/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/y120"
+            android:minWidth="@dimen/x100"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/x30"
+            android:text="登录/注册"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y140"
+        android:layout_marginTop="@dimen/y30"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="待评价" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="待付款" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="待收货" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="我的订单" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/view_line_width"
+        android:background="@color/gray"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y140"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="待评价" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="待付款" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="待收货" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="我的订单" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/view_line_width"
+        android:background="@color/gray"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y140"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="待评价" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="待付款" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="待收货" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="我的订单" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y140"
+        android:layout_marginTop="@dimen/y50"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="我的好友" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="优惠活动" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="一键客服" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/x10">
+
+            <ImageView
+                android:layout_width="@dimen/x45"
+                android:layout_height="0px"
+                android:layout_weight="3"
+                android:src="@drawable/home_page_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:text="关于" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

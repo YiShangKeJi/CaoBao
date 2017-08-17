@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_guide"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title">
+
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ban_transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x80"
+            android:layout_marginRight="@dimen/x80"
+            android:layout_marginTop="@dimen/y100"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y100"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="手机号"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="11位手机号"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/gray_font" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/view_line_width"
+                android:background="@color/colorTheme"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y100"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="验证码"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入短信验证码"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/gray_font" />
+
+                <TextView
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="验证"
+                    android:textColor="@color/colorTheme" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/view_line_width"
+                android:background="@color/colorTheme"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y100"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="密    码"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/gray_font" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/view_line_width"
+                android:background="@color/colorTheme"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y100"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="密    码"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    style="@style/text_ty"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:hint="请确认密码"
+                    android:inputType="textPassword"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/gray_font" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/view_line_width"
+                android:background="@color/colorTheme"></View>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_login"
+            style="@style/text_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90"
+            android:layout_marginLeft="@dimen/x80"
+            android:layout_marginRight="@dimen/x80"
+            android:layout_marginTop="@dimen/y100"
+            android:text="注    册" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:gravity="bottom|center">
+
+            <ImageView
+                android:id="@+id/tv_agree"
+                android:layout_width="@dimen/x28"
+                android:layout_height="@dimen/y100"
+                android:layout_marginRight="@dimen/x5"
+                android:src="@drawable/choose_on" />
+
+            <TextView
+                style="@style/text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/y100"
+                android:layout_toRightOf="@+id/tv_agree"
+                android:text="我已同意软件许可协议"
+                android:textColor="@color/colorTheme" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
