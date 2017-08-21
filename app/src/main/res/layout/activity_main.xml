@@ -38,7 +38,7 @@
 
             <TextView
                 android:id="@+id/tv_home"
-                style="@style/text_4"
+                style="@style/text_3"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="2"
@@ -63,7 +63,7 @@
 
             <TextView
                 android:id="@+id/tv_order"
-                style="@style/text_4"
+                style="@style/text_3"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="2"
@@ -88,7 +88,7 @@
 
             <TextView
                 android:id="@+id/tv_shop"
-                style="@style/text_4"
+                style="@style/text_3"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="2"
@@ -113,7 +113,7 @@
 
             <TextView
                 android:id="@+id/tv_my"
-                style="@style/text_4"
+                style="@style/text_3"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="2"

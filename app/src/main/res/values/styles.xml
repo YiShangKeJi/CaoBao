@@ -8,67 +8,67 @@
 
     <!-- 自定义 -->
     <style name="text_1">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p20</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_2">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p22</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_3">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p24</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_4">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p26</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_5">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p28</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_ty">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p30</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_6">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p32</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_7">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p34</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_8">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p36</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_9">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p38</item>
         <item name="android:gravity">center</item>
     </style>
 
     <style name="text_10">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p40</item>
         <item name="android:gravity">center</item>
     </style>
@@ -90,7 +90,7 @@
     </style>
 
     <style name="text_area">
-        <item name="android:textColor">@color/gray_font</item>
+        <item name="android:textColor">@color/gray_black</item>
         <item name="android:textSize">@dimen/p26</item>
         <item name="android:padding">@dimen/x30</item>
         <item name="android:gravity">center_vertical</item>
@@ -106,13 +106,13 @@
     <style name="view_line_height">
         <item name="android:layout_width">@dimen/x1</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:background">@color/gray_line</item>
+        <item name="android:background">@color/gray</item>
     </style>
 
     <style name="view_line_width">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/y1</item>
-        <item name="android:background">@color/gray_line</item>
+        <item name="android:background">@color/gray</item>
     </style>
 
     <!--tabLayout 样式-->
@@ -135,9 +135,16 @@
         <!-- 无标题 -->
         <item name="android:windowNoTitle">true</item>
         <!-- 背景透明 -->
-        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowBackground">@color/ban_e_transparent</item>
         <!-- 模糊 -->
         <item name="android:backgroundDimEnabled">true</item>
+        <!-- Dialog进入及退出动画 -->
+    </style>
+
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
     </style>
 
     <!--底部弹出动画-->
@@ -145,5 +152,7 @@
         <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
         <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
     </style>
-
+    <style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_circle</item>
+    </style>
 </resources>

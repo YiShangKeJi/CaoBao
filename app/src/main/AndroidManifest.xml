@@ -47,6 +47,26 @@
             android:screenOrientation="portrait">
 
         </activity>
+        <activity
+            android:name="com.ys.caobao.activity.AboutActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.ys.caobao.activity.DiscountActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.ys.caobao.activity.FriendActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.ys.caobao.activity.SetActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
     </application>
 
 </manifest>

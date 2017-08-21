@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray"
+    android:background="@color/title_background"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -12,8 +12,9 @@
         android:paddingLeft="@dimen/x30">
 
         <ImageView
-            android:layout_width="@dimen/y50"
-            android:layout_height="@dimen/y50"
+            android:id="@+id/iv_set"
+            android:layout_width="@dimen/y60"
+            android:layout_height="@dimen/y60"
             android:layout_alignParentRight="true"
             android:layout_margin="@dimen/x50"
             android:src="@drawable/home_page_on" />
@@ -339,6 +340,7 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:id="@+id/ll_friend"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -361,6 +363,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/ll_discount"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -383,6 +386,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/ll_service"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -405,6 +409,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/ll_about"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
