@@ -123,7 +123,10 @@
         <item name="tabBackground">@color/gray</item>
         <item name="tabIndicatorHeight">@dimen/y8</item>
     </style>
-
+    <!--check 样式-->
+    <style name="check">
+        <item name="android:button">@drawable/select_check</item>
+    </style>
     <!--dialog全屏-->
     <style name="dialog" parent="@android:style/Theme.Dialog">
         <!-- 边框 -->

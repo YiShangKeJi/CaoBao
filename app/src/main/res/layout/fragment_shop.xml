@@ -46,11 +46,13 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="@dimen/x40"
-            android:layout_height="@dimen/x40"
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/x100"
             android:layout_marginLeft="@dimen/x40"
-            android:src="@drawable/yuan_toming" />
+            android:checked="false"
+            style="@style/check" />
 
         <TextView
             style="@style/text_ty"
@@ -66,22 +68,24 @@
             android:text="合计：" />
 
         <TextView
+            android:id="@+id/money"
             style="@style/text_ty"
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="0.00" />
+            android:text="0.0元" />
 
         <TextView
+            android:id="@+id/goshop"
             style="@style/text_ty"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@color/red"
+            android:background="@color/gray_font"
             android:paddingLeft="@dimen/x20"
             android:paddingRight="@dimen/x20"
             android:text="去结算（0）"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
     </LinearLayout>
 
 </LinearLayout>

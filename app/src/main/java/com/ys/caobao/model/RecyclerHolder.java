@@ -6,6 +6,8 @@ import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -75,6 +77,11 @@ public class RecyclerHolder extends RecyclerView.ViewHolder {
         tv.setText(text);
         return this;
     }
+    public RecyclerHolder setCheck(int viewId, boolean bool) {
+        CheckBox tv = getView(viewId);
+        tv.setChecked(bool);
+        return this;
+    }
 
     public RecyclerHolder setImageResource(int viewId, int resId) {
         ImageView view = getView(viewId);
@@ -85,6 +92,11 @@ public class RecyclerHolder extends RecyclerView.ViewHolder {
     public RecyclerHolder setOnClickListener(int viewId, View.OnClickListener listener) {
         View view = getView(viewId);
         view.setOnClickListener(listener);
+        return this;
+    }
+    public RecyclerHolder setOnCheckedChangeListener(int viewId, CompoundButton.OnCheckedChangeListener listener) {
+        CheckBox view = getView(viewId);
+        view.setOnCheckedChangeListener(listener);
         return this;
     }
 }
