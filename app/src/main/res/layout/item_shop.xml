@@ -10,7 +10,7 @@
         style="@style/text_ty"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/x90"
+        android:layout_marginLeft="@dimen/x120"
         android:gravity="center_vertical"
         android:text="天猫旗舰店" />
 
@@ -23,19 +23,19 @@
 
         <CheckBox
             android:id="@+id/check"
-            android:layout_width="@dimen/x100"
-            android:layout_height="@dimen/x100"
+            style="@style/check"
+            android:layout_width="@dimen/x80"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/x20"
-            android:checked="false"
-            style="@style/check" />
+            android:checked="false" />
 
         <ImageView
             android:id="@+id/goods_image"
             android:layout_width="@dimen/y220"
             android:layout_height="@dimen/y220"
-            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginLeft="@dimen/x20"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_nav_bg" />
+            android:src="@drawable/qujiesuan" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,9 +44,10 @@
 
             <TextView
                 android:id="@+id/goods_introduce"
-                style="@style/text_ty"
+                style="@style/text_5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/y75"
+                android:lineSpacingExtra="@dimen/y2"
                 android:gravity="center_vertical"
                 android:minHeight="@dimen/y60"
                 android:paddingLeft="@dimen/x20"
@@ -95,8 +96,8 @@
                     android:layout_height="match_parent"
                     android:layout_alignParentRight="true"
                     android:layout_marginBottom="@dimen/y2"
-                    android:background="@drawable/shap"
-                    >
+                    android:layout_marginRight="@dimen/x20"
+                    android:background="@drawable/shap">
 
                     <TextView
                         android:id="@+id/remove"

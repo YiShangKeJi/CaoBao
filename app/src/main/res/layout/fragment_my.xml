@@ -17,30 +17,30 @@
             android:layout_height="@dimen/y60"
             android:layout_alignParentRight="true"
             android:layout_margin="@dimen/x50"
-            android:src="@drawable/home_page_on" />
+            android:src="@drawable/shezhi" />
 
         <com.ys.caobao.view.CircleImageView
             android:layout_width="@dimen/y120"
             android:layout_height="@dimen/y120"
             android:layout_above="@+id/tv_login"
             android:layout_marginLeft="@dimen/x50"
-            android:src="@drawable/ic_nav_bg" />
+            android:src="@drawable/qq" />
 
         <TextView
             android:id="@+id/tv_login"
             style="@style/text_title"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/y120"
-            android:minWidth="@dimen/x100"
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="@dimen/x30"
+            android:minWidth="@dimen/x100"
             android:text="登录/注册"
             android:textColor="@color/white" />
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y140"
+        android:layout_height="@dimen/y160"
         android:layout_marginTop="@dimen/y30"
         android:background="@color/white"
         android:orientation="horizontal">
@@ -51,13 +51,13 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
                 android:layout_width="@dimen/x45"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/daipingjia" />
 
             <TextView
                 style="@style/text_5"
@@ -73,13 +73,13 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
                 android:layout_width="@dimen/x45"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/daifukuan" />
 
             <TextView
                 style="@style/text_5"
@@ -95,13 +95,13 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
                 android:layout_width="@dimen/x45"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/daishouhuo" />
 
             <TextView
                 style="@style/text_5"
@@ -111,19 +111,25 @@
                 android:text="待收货" />
         </LinearLayout>
 
+        <View
+            style="@style/view_line_height"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20"></View>
+
+
         <LinearLayout
             android:layout_width="0px"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
-                android:layout_width="@dimen/x45"
+                android:layout_width="@dimen/x35"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/wodedingdan" />
 
             <TextView
                 style="@style/text_5"
@@ -140,7 +146,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y140"
+        android:layout_height="@dimen/y160"
         android:background="@color/white"
         android:orientation="horizontal">
 
@@ -150,20 +156,20 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
                 android:layout_width="@dimen/x45"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/daijinquan" />
 
             <TextView
                 style="@style/text_5"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="2"
-                android:text="待评价" />
+                android:text="代金券" />
         </LinearLayout>
 
         <LinearLayout
@@ -172,20 +178,20 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
                 android:layout_width="@dimen/x45"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/jifen" />
 
             <TextView
                 style="@style/text_5"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="2"
-                android:text="待付款" />
+                android:text="积分" />
         </LinearLayout>
 
         <LinearLayout
@@ -194,21 +200,26 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
                 android:layout_width="@dimen/x45"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/shangjiaquan" />
 
             <TextView
                 style="@style/text_5"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="2"
-                android:text="待收货" />
+                android:text="商家券" />
         </LinearLayout>
+
+        <View
+            style="@style/view_line_height"
+            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="@dimen/y20"></View>
 
         <LinearLayout
             android:layout_width="0px"
@@ -216,20 +227,20 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
-                android:layout_width="@dimen/x45"
+                android:layout_width="@dimen/x50"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/wodeqianbao" />
 
             <TextView
                 style="@style/text_5"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="2"
-                android:text="我的订单" />
+                android:text="我的钱包" />
         </LinearLayout>
     </LinearLayout>
 
@@ -239,9 +250,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y140"
+        android:layout_height="@dimen/y160"
         android:background="@color/white"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:weightSum="4">
 
         <LinearLayout
             android:layout_width="0px"
@@ -249,92 +261,27 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
                 android:layout_width="@dimen/x45"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/fapiaoyubaoxiao" />
 
             <TextView
                 style="@style/text_5"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="2"
-                android:text="待评价" />
+                android:text="发票与报销" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="@dimen/x10">
-
-            <ImageView
-                android:layout_width="@dimen/x45"
-                android:layout_height="0px"
-                android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
-
-            <TextView
-                style="@style/text_5"
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="2"
-                android:text="待付款" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="@dimen/x10">
-
-            <ImageView
-                android:layout_width="@dimen/x45"
-                android:layout_height="0px"
-                android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
-
-            <TextView
-                style="@style/text_5"
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="2"
-                android:text="待收货" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="0px"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="@dimen/x10">
-
-            <ImageView
-                android:layout_width="@dimen/x45"
-                android:layout_height="0px"
-                android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
-
-            <TextView
-                style="@style/text_5"
-                android:layout_width="match_parent"
-                android:layout_height="0px"
-                android:layout_weight="2"
-                android:text="我的订单" />
-        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y140"
+        android:layout_height="@dimen/y160"
         android:layout_marginTop="@dimen/y50"
         android:background="@color/white"
         android:orientation="horizontal">
@@ -346,13 +293,13 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
-                android:layout_width="@dimen/x45"
+                android:layout_width="@dimen/x55"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/wodehaoyou" />
 
             <TextView
                 style="@style/text_5"
@@ -369,13 +316,13 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
                 android:layout_width="@dimen/x45"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/youhuihuodong" />
 
             <TextView
                 style="@style/text_5"
@@ -392,13 +339,13 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
-                android:layout_width="@dimen/x45"
+                android:layout_width="@dimen/x35"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/yijiankefu" />
 
             <TextView
                 style="@style/text_5"
@@ -415,13 +362,13 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
-            android:padding="@dimen/x10">
+            android:padding="@dimen/x20">
 
             <ImageView
                 android:layout_width="@dimen/x45"
                 android:layout_height="0px"
                 android:layout_weight="3"
-                android:src="@drawable/home_page_on" />
+                android:src="@drawable/guanyu" />
 
             <TextView
                 style="@style/text_5"

@@ -87,7 +87,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ic_nav_bg" />
+                                android:src="@drawable/shap" />
                         </RelativeLayout>
 
                         <RelativeLayout
@@ -101,7 +101,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ic_nav_bg" />
+                                android:src="@drawable/shap" />
                         </RelativeLayout>
 
                         <RelativeLayout
@@ -113,7 +113,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ic_nav_bg" />
+                                android:src="@drawable/shap" />
                         </RelativeLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -175,7 +175,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ic_nav_bg" />
+                                android:src="@drawable/shap" />
                         </RelativeLayout>
 
                         <RelativeLayout
@@ -189,7 +189,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ic_nav_bg" />
+                                android:src="@drawable/shap" />
                         </RelativeLayout>
 
                         <RelativeLayout
@@ -201,7 +201,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="centerCrop"
-                                android:src="@drawable/ic_nav_bg" />
+                                android:src="@drawable/shap" />
                         </RelativeLayout>
                     </LinearLayout>
                 </LinearLayout>
@@ -255,7 +255,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/y240"
                         android:layout_margin="@dimen/x20"
-                        android:background="@color/white" />
+                        android:background="@drawable/shap" />
 
                 </LinearLayout>
             </LinearLayout>

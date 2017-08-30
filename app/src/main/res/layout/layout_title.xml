@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="@dimen/x25"
             android:layout_height="@dimen/y45"
-            android:background="@drawable/ic_back" />
+            android:background="@drawable/tuichu" />
     </RelativeLayout>
 
     <TextView

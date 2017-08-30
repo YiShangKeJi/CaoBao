@@ -1,7 +1,6 @@
 package com.ys.caobao.fragment;
 
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
@@ -15,7 +14,7 @@ import android.widget.Toast;
 
 import com.ys.caobao.R;
 import com.ys.caobao.adapter.RecyclerAdapter;
-import com.ys.caobao.bean.Goods;
+import com.ys.caobao.model.Goods;
 import com.ys.caobao.model.RecyclerHolder;
 import com.ys.caobao.util.ViewUtil;
 
@@ -46,6 +45,7 @@ public class ShopFragment extends Fragment{
             Goods goods = new Goods();
             goods.name="商品"+i+1;
             goods.num=0;
+            goods.introduce = "天猫旗舰店第一批系列产品，天猫旗舰店第一...";
             goods.price=i+5;
             list.add(goods);
         }

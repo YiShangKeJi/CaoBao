@@ -15,10 +15,10 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="@dimen/x80"
+            android:layout_width="@dimen/x50"
             android:layout_height="0px"
             android:layout_weight="3"
-            android:src="@drawable/home_page_on" />
+            android:src="@drawable/dianhua" />
 
         <TextView
             style="@style/text_5"
@@ -36,10 +36,10 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="@dimen/x80"
+            android:layout_width="@dimen/x100"
             android:layout_height="0px"
             android:layout_weight="3"
-            android:src="@drawable/home_page_on" />
+            android:src="@drawable/qq" />
 
         <TextView
             style="@style/text_5"

@@ -18,12 +18,12 @@
     <ImageView
         android:id="@+id/iv_logo"
         android:layout_width="@dimen/x140"
-        android:layout_height="@dimen/y140"
+        android:layout_height="@dimen/x140"
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/y100"
         android:layout_marginTop="@dimen/y100"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_nav_bg" />
+        android:src="@drawable/caobaotuan" />
 
 
     <LinearLayout

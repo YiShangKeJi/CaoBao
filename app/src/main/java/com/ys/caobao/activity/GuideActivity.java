@@ -47,10 +47,10 @@ public class GuideActivity extends BaseActivity implements ViewPager.OnPageChang
         tv_sign = (TextView) findViewById(R.id.tv_sign);
         tv_sign.setOnClickListener(this);
         mViewList = new ArrayList<>();
-        mViewList.add(R.drawable.ic_guide);
-        mViewList.add(R.drawable.ic_guide);
-        mViewList.add(R.drawable.ic_guide);
-        mViewList.add(R.drawable.ic_guide);
+        mViewList.add(R.color.colorTheme);
+        mViewList.add(R.color.colorTheme);
+        mViewList.add(R.color.colorTheme);
+        mViewList.add(R.color.colorTheme);
         adapter = new VpAdapter(this, mViewList);
         viewPager.setAdapter(adapter);
         viewPager.addOnPageChangeListener(this);

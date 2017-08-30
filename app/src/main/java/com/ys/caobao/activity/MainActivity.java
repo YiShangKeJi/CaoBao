@@ -95,26 +95,26 @@ public class MainActivity extends BaseFragmentActivity implements ViewPager.OnPa
      * @param position
      */
     private void setBackGround(int position) {
-        iv_home.setImageResource(R.drawable.home_page_off);
-        iv_order.setImageResource(R.drawable.home_page_off);
-        iv_shop.setImageResource(R.drawable.home_page_off);
-        iv_my.setImageResource(R.drawable.home_page_off);
-        tv_home.setTextColor(getResources().getColor(R.color.gray_font));
-        tv_order.setTextColor(getResources().getColor(R.color.gray_font));
-        tv_shop.setTextColor(getResources().getColor(R.color.gray_font));
-        tv_my.setTextColor(getResources().getColor(R.color.gray_font));
+        iv_home.setImageResource(R.drawable.shouye);
+        iv_order.setImageResource(R.drawable.xiadan);
+        iv_shop.setImageResource(R.drawable.gouwuche);
+        iv_my.setImageResource(R.drawable.wo);
+        tv_home.setTextColor(getResources().getColor(R.color.gray_black));
+        tv_order.setTextColor(getResources().getColor(R.color.gray_black));
+        tv_shop.setTextColor(getResources().getColor(R.color.gray_black));
+        tv_my.setTextColor(getResources().getColor(R.color.gray_black));
 
         if (position == 0) {
-            iv_home.setImageResource(R.drawable.home_page_on);
+            iv_home.setImageResource(R.drawable.shouyeer);
             tv_home.setTextColor(getResources().getColor(R.color.colorTheme));
         } else if (position == 1) {
-            iv_order.setImageResource(R.drawable.home_page_on);
+            iv_order.setImageResource(R.drawable.xiadaner);
             tv_order.setTextColor(getResources().getColor(R.color.colorTheme));
         } else if (position == 2) {
-            iv_shop.setImageResource(R.drawable.home_page_on);
+            iv_shop.setImageResource(R.drawable.gouwucheer);
             tv_shop.setTextColor(getResources().getColor(R.color.colorTheme));
         } else if (position == 3) {
-            iv_my.setImageResource(R.drawable.home_page_on);
+            iv_my.setImageResource(R.drawable.woer);
             tv_my.setTextColor(getResources().getColor(R.color.colorTheme));
         }
     }

@@ -1,4 +1,4 @@
-package com.ys.caobao.bean;
+package com.ys.caobao.model;
 
 /**
  * Created by Administrator on 2017/8/29.
