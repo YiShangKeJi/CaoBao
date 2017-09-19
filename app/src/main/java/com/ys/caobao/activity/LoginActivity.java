@@ -11,10 +11,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ys.caobao.R;
+import com.ys.caobao.parsesaop.DataTableResultInfo;
+import com.ys.caobao.parsesaop.ParseSoapDataTableResultInfo;
 import com.ys.caobao.parsesaop.ParseSoapStringResultInfo;
 import com.ys.caobao.parsesaop.StringResultInfo;
 import com.ys.caobao.request.User.Login;
 import com.ys.caobao.request.User.RegistUser;
+import com.ys.caobao.response.Login_Respone;
 import com.ys.caobao.webservice.WebserviceMethod;
 
 import org.ksoap2.serialization.SoapObject;
@@ -36,10 +39,16 @@ public class LoginActivity extends BaseActivity {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case Handler_Login:
-                    StringResultInfo parse = ParseSoapStringResultInfo
-                            .parse((SoapObject) msg.obj);
+//                    StringResultInfo parse = ParseSoapStringResultInfo
+//                            .parse((SoapObject) msg.obj);
+                    DataTableResultInfo<Login_Respone> parse = ParseSoapDataTableResultInfo
+                            .parse((SoapObject) msg.obj, Login_Respone.class);
                     if(parse.OkFlag){
-                        String [] split = parse.Data.toString().split(";");
+                        String ID = parse.Data.get(0).ID;
+                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        startActivity(intent);
+                    }else{
+                        Toast.makeText(LoginActivity.this,"登录失败\n" +parse.ErrMsg,Toast.LENGTH_SHORT).show();
                     }
                     break;
                 default:
